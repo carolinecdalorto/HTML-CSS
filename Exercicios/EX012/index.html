@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserir videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagens/DSC_3857.JPG" controls autoplay loop>
+        <source src="midia/pexels-karolina-grabowska-8370807-_2160p_.m4v" type="video/mp4">
+        <source src="midia/pexels-karolina-grabowska-8370807-_2160p_.webm" type="video/webm">
+        <source src="midia/pexels-karolina-grabowska-8370807 (2160p).ogv" type="video/ogg">
+        <source src="midia/pexels-karolina-grabowska-8370807 (2160p).mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com vídeo.</p>
+    </video> <!--videos hospedados dessa maneira consumem muito tráfego de dados-->
+
+    <h1>Inserir videos do Youtube</h1> <!--amplia a visualização do Google (recomendado que o cliente poste o video no Youtube)e não consome seu uso de dados, PORÉM não dá pra hospedar com acesso exclusivo (tem acesso a incorporar o video em qualquer site, só não aparece na busca no Youtube (caso seja restritivo))-->
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=XuPZITTv1sv6YGcm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1> <!--qualidade melhor que a do Youtube porém menor visibilidade. Consumo mensal ilimitado, apenas quantidade de videos para serem subidos que tem restrição-->
+
+    <iframe src="https://player.vimeo.com/video/871122886?h=bdd8c927a7&title=0" width="560" height="235" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/871122886"><a href="https://vimeo.com/baregolly"></a></p>
+
+    
+</body>
+</html>

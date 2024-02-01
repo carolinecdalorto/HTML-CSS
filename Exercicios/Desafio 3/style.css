@@ -1,0 +1,38 @@
+charset "UTF-8";
+
+{
+    font-family: times 
+    height: 100%;
+}
+
+body { background-image: linear-gradient(to top,rgb(243, 164, 217),#cf86b1,  rgba(190, 119, 167, 0.69), #b17194b0, #99627c, rgb(119, 72, 94));
+    background-attachment: fixed
+
+}
+
+main {
+    background-color: #ebdcd1cc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #8e6399a1 ;
+    width: 600px; 
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+color: rgb(136, 77, 126);
+text-align: center;
+text-shadow: 1px 1px 2px rgba(216, 185, 13, 0.69);
+}
+
+h2 {
+color: #751481;
+text-shadow: #81405f;
+}
+
+p {
+    text-align: justify;
+}
+
+/*Sombra = pro lado, pra baixo e espalhada/*
+/* Conteúdo X Estilo/*

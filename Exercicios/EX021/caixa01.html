@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+<style>
+ /* box level */   h1 {
+        background-color: grey;
+        height: 300px;
+        width: 300px;
+       
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: goldenrod; */
+
+        border: 10px solid goldenrod; /* essa linha substitui as 3 de cima*/
+    
+        /* padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px; */
+
+        padding: 10px 10px 5px 10px; /* quando colocamos apenas 1 valor (px) significa que todos os lados serão iguais, quando colocamos 2 valores significa colocar top = bottom e right = left */
+
+        /* margin-top:10px;
+        margin-right:10px;
+        margin-bottom:40px;
+        margin-left:10px; */
+
+        margin: 10px 10 px 40 px 10 px;
+
+        /* margin: 10 px auto 40 px auto; significa centralizar as margens da esquerda e da direita (deixando a caixa centralizada) */
+
+     /* outilne = fica entre a margem e a borda */  /* outline-width:
+        outline-style: dashed;
+        outline-color: aqua; */
+
+        outline: 5px dashed  aqua;
+
+       /* margin: auto; centralizar a caixa */
+       /* display: inline; para deixar a caixa inline (numa linha)
+       display: block; para transformar o inline em uma caixa
+       display: inline-block; para as duas configurações  */
+    }
+
+ /* inline level */   a {
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+</style>
+    
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+<!--Dev Tools - Google-->
+</html>

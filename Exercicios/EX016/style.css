@@ -1,0 +1,36 @@
+#charset "UTF-8";
+
+{
+    font-family: arial
+    height: 100%;
+}
+
+body { background-image: linear-gradient(to right, #D8B08C, #FFCB9A 20%);
+
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #997c63cc ;
+    width: 600px; 
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+color: #D8B08C;
+text-align: center;
+text-shadow: 1px 1px 2px #ad8e74b0;
+}
+
+h2 {
+color: #0F6466;
+}
+
+p {
+    text-align: justify;
+}
+
+/*Sombra = pro lado, pra baixo e espalhada/*
+/* Conteúdo X Estilo/*

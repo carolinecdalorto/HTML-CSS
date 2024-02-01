@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/ Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript</p> <!--Code = fonte monoespaçada - code não organiza com indentação - para fazer indentação (mostrar o código com a formatação dos espaços) colocar na tag PRE - com as teclas SHIFT e TAB se organiza o espaço lateral do código inteiro-->
+    <pre>
+        <code>
+    num = int(input("Digite um número"))
+    if num % 2 == 0
+        print(f"O número (num) digitado e par")
+    else:
+        print(f"O número digitado (num) é ímpar")
+    print("Fim do programa")
+        </code>
+    </pre>
+    <h2>Citações simples</h2> <!--sem quebra de linha-->
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--Tag Q significa citação ou seja põe a frase entre aspas-->
+    <h2>Citações complexas</h2> <!--quebra de linha e recuo horizontal-->
+    <p>Segundo Jaff Noble, no seu livro HTML para leigos:
+        <blockquote cite=" TITTEL, Ed; NOBLE, Jeff. HTML, XHTML and CSS for dummies. John Wiley & Sons, 2011."> <!--a tag CITE comunica o site (a parte interna) sobre os direitos da frase-->
+            Bem vindo às possibilidades desenfreadas, malucas e maravilhosas da World Wide Web, ou, mais, simplesmente, a webHTML, XHTML e CSS Para Leigos, revela os detalhes das linguagens de marcação que são a veia da web a Hypertext Markup Language (HTML) e sua prima, XHTM, junto com a linguagem da Cascading Style Sheet (CSS), usada para fazer com que outras coisas pareçam boas. HTML e XHTML (usamos (X)HTML neste livro para fazer referência às duas) e CSS são usadas para criar páginas web. Aprender a usá-las o coloca no grupo dos autores e desenvolvedores de conteúdo web. Lá tentou criar suas próprias páginas de web? Achou tudo muito proibitivo?
+        </blockquote>
+    </p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperTex Markup Linguage">HTML </abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando.</p>
+    <h2>Texto invertido</h2>
+    <bdo dir="rtl">Estou aprendendo coisas em HTML.</bdo>
+</body>
+</html>
