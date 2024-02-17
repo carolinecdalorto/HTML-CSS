@@ -63,12 +63,14 @@ section.normal {
     background-color: pink;
     color: black;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
+    background-attachment: fixed;
 }
 
 section.normal > p {
     display: inline-block;
     width: 400px;
     padding-left: 30px;
+    background-color: pink;
 }
 
 section.imagem {
