@@ -60,7 +60,8 @@ section {
 }
 
 section.normal {
-    background-color: pink;
+    background-image: -moz-linear-gradient(to left rgb(70, 55, 57)
+    rgb(65, 13, 21) );
     color: black;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
 }
