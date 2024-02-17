@@ -24,7 +24,7 @@ html, body {
 
 header {
     background-color: black;
-    padding: auto;
+    padding: 10px;
     color: white;
     text-align: center;
 }
