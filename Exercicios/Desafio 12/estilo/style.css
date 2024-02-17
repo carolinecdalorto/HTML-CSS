@@ -77,7 +77,8 @@ section.imagem > p {
 
 section#img01 {
     background-image: url('../imagens/img01.jpg');
-    
+    background-position: right center;
+
 }
 
 section#img02 {
