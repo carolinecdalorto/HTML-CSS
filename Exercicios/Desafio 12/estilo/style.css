@@ -24,7 +24,6 @@ html, body {
 
 header {
     background-color: black;
-    padding: 10px;
     color: white;
     text-align: center;
 }
@@ -39,6 +38,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    padding: 10px;
 }
 
 header a, footer a {
