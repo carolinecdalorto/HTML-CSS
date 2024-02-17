@@ -70,7 +70,7 @@ section.normal > p {
     display: inline-block;
     width: 400px;
     padding-left: 30px;
-    background-color: rgba(255, 192, 203, 0.61);
+    background-color: rgba(255, 192, 203, 0.582);
 }
 
 section.imagem {
@@ -91,7 +91,6 @@ section#img01 {
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 section#img02 {
@@ -101,8 +100,29 @@ section#img02 {
     background-repeat: no-repeat;
 }
 
+section#img03 {
+    background-image: url('../imagens/img03.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 section#img04 {
     background-image: url('../imagens/img04.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#img05 {
+    background-image: url('../imagens/img05.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#img06 {
+    background-image: url('../imagens/img06.jpg');
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
