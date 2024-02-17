@@ -85,12 +85,14 @@ section#img01 {
 
 section#img02 {
     background-image: url('../imagens/img02.jpg');
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 section#img04 {
     background-image: url('../imagens/img04.jpg');
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
 }
