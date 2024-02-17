@@ -61,7 +61,7 @@ section {
 section.normal {
     background-color: pink;
     color: black;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
 }
 
 section.imagem {
