@@ -17,7 +17,7 @@ header {
 }
 
 header > h1 {
-    padding-top: 50%;
+    padding-top: 50px;
     font-variant: small-caps; /* primeiras letras do título ficam maiusculas e destacadas */
 }
 
