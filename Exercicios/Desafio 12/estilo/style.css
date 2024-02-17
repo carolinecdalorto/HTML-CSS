@@ -61,8 +61,8 @@ section {
 section.normal {
     background-color: pink;
     color: black;
-    padding-left: 30px;
     width: 400px;
+    padding-left: 30px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.24);
 }
 
@@ -74,7 +74,7 @@ section.imagem {
 
 section.imagem > p {
     display: inline-block;
-   
+    width: 400px;
     padding-left: 30px;
     background-color: rgba(59, 56, 56, 0.438);
 }
