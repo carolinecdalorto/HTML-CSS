@@ -60,7 +60,7 @@ section {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 2em; /* espaçamento duplo entre as frases */
-    padding-left: 30px; /* afastamento da lateral esquerda */
+    padding-left: 20px; /* afastamento da lateral esquerda */
     font-family: var(--fonte3);
     font-size: 2vw;
     text-align: center;
