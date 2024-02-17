@@ -61,7 +61,6 @@ section {
 section.normal {
     background-color: pink;
     color: black;
-    display: inline-block;
 }
 
 section.imagem {
