@@ -42,8 +42,8 @@ header > p {
     padding-top: 10px;
 }
 
-p.arte {
-font-size: small;
+hearder a.arte {
+    font-size: small;
 }
 
 header a, footer a {
