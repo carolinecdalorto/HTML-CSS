@@ -55,7 +55,7 @@ section {
     line-height: 2em; /* espaçamento duplo entre as frases */
     padding-left: 30px; /* afastamento da lateral esquerda */
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 section.normal {
@@ -69,6 +69,7 @@ section.imagem {
 }
 
 section.imagem > p {
+    display: inline-block;
     width: 400px;
     background-color: rgba(59, 56, 56, 0.377);
 
