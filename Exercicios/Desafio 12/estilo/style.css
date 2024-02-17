@@ -31,6 +31,7 @@ header {
 
 header > h1 {
     padding-top: 50px;
+    padding-bottom: 10px;
     font-variant: small-caps; /* primeiras letras do título ficam maiusculas e destacadas */
     font-family: var(--fonte2);
     font-size: 4vw; /* título fica 10 por cento o tamanho da tela */
