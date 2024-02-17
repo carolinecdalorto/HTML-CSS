@@ -85,10 +85,14 @@ section#img01 {
 
 section#img02 {
     background-image: url('../imagens/img02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section#img03 {
     background-image: url('../imagens/img03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer {
