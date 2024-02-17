@@ -24,13 +24,11 @@ html, body {
 
 header {
     background-color: black;
+    padding: auto;
     color: white;
     text-align: center;
 }
 
-br {
-    padding: 10px;
-}
 
 header > h1 {
     padding-top: 50px;
