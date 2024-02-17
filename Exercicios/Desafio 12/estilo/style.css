@@ -56,6 +56,7 @@ section {
     padding-left: 30px; /* afastamento da lateral esquerda */
     font-family: var(--fonte3);
     font-size: 2vw;
+    text-align: center;
 }
 
 section.normal {
