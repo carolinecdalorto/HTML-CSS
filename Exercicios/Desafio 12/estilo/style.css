@@ -28,6 +28,10 @@ header {
     text-align: center;
 }
 
+br {
+    padding: 10px;
+}
+
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps; /* primeiras letras do título ficam maiusculas e destacadas */
