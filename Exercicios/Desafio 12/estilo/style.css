@@ -75,11 +75,15 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/img01.png');
+    background-image: url('../imagens/img01.jpg');
 }
 
 section#img02 {
-    
+    background-image: url('../imagens/img02.jpg');
+}
+
+section#img03 {
+    background-image: url('../imagens/img03.jpg');
 }
 
 footer {
