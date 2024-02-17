@@ -73,7 +73,7 @@ section.normal > p {
     display: inline-block;
     width: 400px;
     padding-left: 30px;
-    background-color: rgba(209, 173, 179, 0.842);
+    background-color: rgba(209, 173, 179, 0.658);
 }
 
 section.imagem {
