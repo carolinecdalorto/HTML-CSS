@@ -76,7 +76,6 @@ section.normal > p {
 section.imagem {
     background-color: black;
     color: white;
-    box-shadow: inset 6px 6px 13px 0px black;
     background-attachment: fixed;
 }
 
