@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&family=Vibur&display=swap');
 
 :root {
     --fonte1: Verdana, Tahoma, sans-serif;
     --fonte2: "Passion One", sans-serif;
-    --fonte3: "Sriracha";
+    --fonte3: "Vibur", cursive;
 }
 
 * {
@@ -53,7 +54,7 @@ section {
     padding-bottom: 10px;
     line-height: 2em; /* espaçamento duplo entre as frases */
     padding-left: 30px; /* afastamento da lateral esquerda */
-    font-family: var(--fonte3),;
+    font-family: var(--fonte3);
 }
 
 section.normal {
