@@ -16,12 +16,8 @@
             border: 1px solid black;
             padding: 8px; /* altura */
         }
-
-        tr.linha {
+        td.dado {
             background-color: gray;
-        }
-        td#dado {
-            color: blue;            
         }
     </style>
 
@@ -34,15 +30,15 @@
             TABLE HEADER = cabeçarioa de tabela 
             TABLE DATE = dado de tabela-->
     <table>
-        <tr> <!-- Primeira linha -->
+        <tr class="dado"> <!-- Primeira linha -->
             <td>A1</td> <!--Cada cédula-->
             <td>B1</td>
             <td>C1</td>
         </tr>
         <tr>
             <td>A2</td>
-            <td id="dado"> B2</td>
-            <td id="dado">C2</td>
+            <td> B2</td>
+            <td>C2</td>
         </tr>
         <tr class="linha">
             <td>A3</td>
