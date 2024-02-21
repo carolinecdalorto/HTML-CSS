@@ -25,7 +25,7 @@
             padding: 10px;
         }
 
-        tr.destaque {
+        col.cnome {
             background-color: blue;
         }
 
@@ -33,6 +33,12 @@
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="prof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -45,7 +51,7 @@
         <td>25</td>
         <td>jornalista</td>
         </tr>
-         <tr class="destaque">
+         <tr>
         <td>Caio</td>
         <td>M</td>
         <td>45</td>
