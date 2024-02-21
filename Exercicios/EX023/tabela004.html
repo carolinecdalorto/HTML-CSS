@@ -35,13 +35,13 @@
         <caption>Filmes favoritos</caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th class="id" colspan="3">Filmes</th>
+                <th scope="">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th> <!--Grupos de dados na vertical-->
             </tr>
         </thead>  
             <tr>
-                <th class="id" rowspan="3">Mulheres</th>
+                <th scope="rowgroup" rowspan="3">Mulheres</th> <!--Grupo de dados na horizontal-->
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -59,7 +59,7 @@
                 <td>Big Hero</td>
             <tr>
             <tr>
-                <th class="id" rowspan="3">Homens</th>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
