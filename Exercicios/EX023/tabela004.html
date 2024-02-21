@@ -6,6 +6,7 @@
     <title>Tabela Completa</title>
 </head>
 <body>
+    <h1>Exercício de Tabelas</h1>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +17,7 @@
             width: 600px;
         }
 
-        td {
+        th, td {
             border: 1px solid black;
             padding: 5px;
         }
@@ -30,11 +31,14 @@
 </head>
 <body>
     <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
             <tr>
                 <td class="id">Grupos</td>
                 <td class="id">Nomes</td>
                 <td class="id" colspan="3">Filmes</td>
             </tr>
+        </thead>  
             <tr>
                 <td class="id" rowspan="3">Mulheres</td>
                 <td>Ana Maria Santos</td>
