@@ -28,27 +28,37 @@
         div#container {
             overflow-x: auto;
         }
-
+        
+        col.cnota1 {
+            text-align: center;
+        }
      
     </style>
 </head>
 <body>
     <table>
         <thead>
+            <colgroup>
+                <col class="carea">
+                <col class="cdisciplina">
+                <col class="cnota1" span="2">
+                <col class="cnota2">
+                <col class="cmedia">
+            </colgroup>
             <tr>
-                <th rowspan="2">Áreas</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th scope="col" rowspan="2">Áreas</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
             </tr>
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
                 <td>Matemática</td>
                 <td>5.5</td>
                 <td>7</td>
@@ -73,11 +83,11 @@
                 <td>8.5</td>
             </tr>
             <tr class="id">
-                <th colspan="4">Média de Exatas</th>
+                <th scope="row" colspan="4">Média de Exatas</th>
                 <td>6.7</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
                 <td>História</td>
                 <td>7</td>
                 <td>6</td>
@@ -90,7 +100,7 @@
                 <td>8.5</td>
             </tr>
             <tr class="id">
-                <th colspan="4">Média de Humanas</th>
+                <th scope="row" colspan="4">Média de Humanas</th>
                 <td>7.5</td>
             </tr>
         </tbody>
