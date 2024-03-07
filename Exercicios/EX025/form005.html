@@ -10,8 +10,8 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="imax"> <label for="imax">Masculino</label><br>
-            <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label> 
+            <input type="radio" name="sexo" id="imax" value="M"> <label for="imax">Masculino</label><br>
+            <input type="radio" name="sexo" id="ifem" value="F" checked> <label for="ifem">Feminino</label> 
         </fieldset>
         <fieldset>
             <legend>Esporter favoritos</legend>
@@ -27,3 +27,5 @@
     </form>
 </body>
 </html>
+
+<!--No "radio" o "nome" tem que ser igual para todos os inputs e as opções são mutualmente exclusivas, do contrário do "checkbox"-->
