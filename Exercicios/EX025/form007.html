@@ -9,12 +9,13 @@
     <h1>Exemplo de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="iest">Estado:</label>
+            <label for="iest">Estado:</label> <!--label = atributo-->
             <select name="estado" id="ist">
-               <optgroup label="Região sudeste">
+                <option value="" selected>-----Escolha------</option>
+               <optgroup label="Região sudeste"> <!--label = elemento-->
                 <option value="MG">Minas gerais</option>
                 <option value="RJ">Rio de Janeiro</option>
-                <option value="SP">São Paulo</option>
+                <option value="SP" selected>São Paulo</option>
                </optgroup>
                <optgroup label="Região nordeste">
                 <option value="MG">Bahia</option>
