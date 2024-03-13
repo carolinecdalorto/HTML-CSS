@@ -8,10 +8,11 @@
 html, body {
     width: 100vw;
     height: 100vw;
-    background-color: black;
+    background-color: #233eff;
 }
 
 h1 {
     color: white;
-    text-shadow:  3px 3px 0 px black;
+    text-shadow:  2px 2px 0px #111f8a;
+    padding: 10px;
 }
