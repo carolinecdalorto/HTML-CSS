@@ -12,4 +12,8 @@
     menu > ul > li {
         display: inline-block;
     }
+
+    main {
+        width: 768px;  /* para o texto no corpo do site não ficar comprido */
+    }
 }
