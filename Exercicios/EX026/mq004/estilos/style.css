@@ -19,7 +19,7 @@ Desktop: de 992px até 1200px
         background-image: url(back-tablet.jpg);
     }
     
-img#phone { display: block;}
+img#phone { display: none;}
 img#tablet { display: block;}
 img#print { display: none;}
 img#pc { display: none;}
