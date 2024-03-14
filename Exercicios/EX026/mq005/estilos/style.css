@@ -38,5 +38,5 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: rgb(168, 167, 167);
+    background-color: rgba(128, 128, 128, 0.671);
 }
