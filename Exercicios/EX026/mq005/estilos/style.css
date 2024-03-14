@@ -36,3 +36,7 @@ menu > ul > li > a {
     text-align: center;
     border-top: 2px solid gray;
 }
+
+menu > ul > li > a:hover {
+    background-color: rgb(168, 167, 167);
+}
