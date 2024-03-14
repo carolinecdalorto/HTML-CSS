@@ -2,3 +2,37 @@
 
 /* versão Mobile First (Mobile First – mais leve (performance), democratização, melhora experiência do usuário, aumenta credibilidade, aumenta indexação (algorítmo do google) */
 
+/* Typical Device Breakpoints
+- Pequenas telas
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+- Grandes telas: acima de 1200px
+ */
+
+ @media print {
+    
+ }
+
+ @media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    
+ }
+
+ @media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        img#phone { display: block;}
+
+    img#tablet { display: block;}
+    img#print { display: none;}
+    img#pc { display: none;}
+    img#tv { display: none;}
+    }
+ }
+
+ @media screen and (min-width:1200) {
+    
+ }
