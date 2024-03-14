@@ -16,7 +16,7 @@ Desktop: de 992px até 1200px
 
  @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: url(./imagens/back-tablet.jpg);
+        background-image: url(back-tablet.jpg);
     }
     
 img#phone { display: block;}
@@ -29,7 +29,7 @@ img#tv { display: none;}
 
  @media screen and (min-width:992px) and (max-width:1200px) {
     body {
-        background-image: url(./imagens/back-pc.jpg);
+        background-image: url(back-pc.jpg);
         
     }
  }
