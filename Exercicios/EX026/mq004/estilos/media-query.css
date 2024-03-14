@@ -17,7 +17,12 @@ Desktop: de 992px até 1200px
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
+    }
+
+    main::after {
+        content: "Essa impressão foi feita através do site www.cursoemvideo.com";
     }
     
     main h1 {
