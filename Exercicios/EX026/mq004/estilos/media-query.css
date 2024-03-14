@@ -27,6 +27,11 @@ main {
     padding: 10px;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 img#phone { display: block;}
 img#tablet { display: none;}
 img#print { display: none;}
