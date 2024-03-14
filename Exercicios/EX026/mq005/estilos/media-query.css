@@ -14,6 +14,9 @@
     }
 
     main {
-        width: 768px;  /* para o texto no corpo do site não ficar comprido */
+        column-count: 2;  /* para o texto no corpo do site não ficar comprido */
     }
 }
+
+
+
