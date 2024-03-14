@@ -45,9 +45,9 @@ main {
     width: 90vw;
     background-color: white;
     margin: auto;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 article > h2 {
