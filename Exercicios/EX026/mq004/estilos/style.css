@@ -29,7 +29,7 @@ img#tv { display: none;}
 
  @media screen and (min-width:992px) and (max-width:1200px) {
     body {
-        background-image: url(../imagens/back-pc.jpg);
+        background-image: url(./imagens/back-pc.jpg);
         
     }
  }
