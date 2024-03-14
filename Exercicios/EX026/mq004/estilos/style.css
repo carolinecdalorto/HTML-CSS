@@ -53,5 +53,8 @@ Desktop: de 992px até 1200px
  }
 
  @media screen and (min-width:1200) {
+    body {
+        background-image: url(back-tv.jpg);
+    }
     
  }
