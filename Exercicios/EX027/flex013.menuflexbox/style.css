@@ -20,7 +20,12 @@ header {
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    flex: 0 0 200px;
 }
 
 header > nav > a {
