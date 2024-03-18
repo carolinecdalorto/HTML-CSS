@@ -29,7 +29,10 @@ header > h1 {
 }
 
 header > nav {
+    border: 1px dotted black;
     display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
 }
 
 header > nav > a {
