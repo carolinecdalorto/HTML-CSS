@@ -28,6 +28,10 @@ header > h1 {
     flex: 0 0 200px;
 }
 
+header > nav {
+    display: flex;
+}
+
 header > nav > a {
     background-color: black;
     color: white;
