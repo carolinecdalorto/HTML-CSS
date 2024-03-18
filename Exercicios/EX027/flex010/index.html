@@ -8,7 +8,7 @@
         div.conteiner {
             background-color: aqua;
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
         }
 
         div.item {
@@ -16,7 +16,8 @@
             border: 1px solid black;
             text-align: center;
             flex-basis: 250px;
-            flex-shrink: 0;
+            flex-shrink: 1; /* pode diminuir (padrão) */
+            flex-grow: 1; /* não pode crescer (padrão) */
         }
         
     </style>
