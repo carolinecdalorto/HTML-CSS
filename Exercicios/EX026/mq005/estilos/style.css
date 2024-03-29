@@ -35,13 +35,10 @@ span#burguer:hover {
 
 menu {
     display: none;
-    text-align: center;
 }
 
 menu > ul {
     list-style-type: none;
-    margin: 0px auto;
-    padding: 0px;
 }
 
 menu > ul > li > a {
