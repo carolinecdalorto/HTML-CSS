@@ -6,6 +6,61 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>pagina teste</h1>
+    body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="book.html">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, alias vitae? Reiciendis, velit consequuntur magnam, debitis ducimus, a doloribus maiore
+                s excepturi in amet unde similique numquam deleniti repellat architecto saepe? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum at similique qui sint ipsa in vel libero nesciunt, optio, 
+                facere ratione esse minima asperiores, tempore sunt ad? Quas, inventore ullam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A officiis inventore nam quibusdam veniam. Possimus, quam iure amet cumque ab repellat mollitia 
+                consequatur dolore consequuntur sapiente corporis pariatur reprehenderit laborum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas possimus veniam velit laborum temporibus magnam, recusandae officiis quaerat 
+                sapiente eum nobis labore enim accusamus modi alias, dolore tempora doloremque facere.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A officiis inventore nam quibusdam veniam. Possimus, quam iure amet cumque ab repellat mollitia 
+                consequatur dolore consequuntur sapiente corporis pariatur reprehenderit laborum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas possimus veniam velit laborum temporibus magnam, recusandae officiis quaerat 
+                sapiente eum nobis labore enim accusamus modi alias, dolore tempora doloremque facere.</p>
+            </article>
+    </main>
+    <script>
+
+        function colunas() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
